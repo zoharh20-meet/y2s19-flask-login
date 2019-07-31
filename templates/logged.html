@@ -3,4 +3,18 @@
 Hi {{session['name']}}, you are logged in.
 </h1>
 
+<form action="/update-food" method="POST">
+	<input type="text" name="fav_food" placeholder="What is your favorite food?">
+	<br>
+	<input type="submit" value="fav food">
+</form> 
+
+{%if fav_food != None%}
+
+<p> your favorite food is {{fav_food}}</p>
+	
+{%endif%}
+
+
 <a href = "/logout"> Logout </a>
+
