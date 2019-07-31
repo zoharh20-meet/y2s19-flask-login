@@ -17,8 +17,6 @@ pip3 install flask_login
 
 ## Warm-up Exercises
 
-For the warm-up, we're going to take the site you've been working on in previous labs and add a login feature to it!.
-
 ### Part 1: User Models
 
 Somebody started creating a User model, but they're missing an important part. Open `model.py` and replace this missing line of code.
