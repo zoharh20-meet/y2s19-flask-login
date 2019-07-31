@@ -9,6 +9,11 @@ cd ~/Desktop
 git clone https://github.com/YOUR_GITHUB_USERNAME/y2s19-flask-login.git
 ```
 
+Run the following command in your terminal to install passlib:
+```
+pip3 install passlib
+```
+
 ## Warm-up Exercises
 
 For the warm-up, we're going to take the site you've been working on in previous labs and add a login feature to it!.
