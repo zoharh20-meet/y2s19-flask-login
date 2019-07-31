@@ -9,9 +9,10 @@ cd ~/Desktop
 git clone https://github.com/YOUR_GITHUB_USERNAME/y2s19-flask-login.git
 ```
 
-Run the following command in your terminal to install passlib:
+Run the following commands in your terminal to install passlib and flask_login:
 ```
 pip3 install passlib
+pip3 install flask_login
 ```
 
 ## Warm-up Exercises
